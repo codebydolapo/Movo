@@ -16,6 +16,12 @@ Movo boasts a comprehensive suite of features designed to provide a compelling u
 -   **Interactive Post Viewing Experience:** An immersive post viewing experience facilitated by modal-based displays, allowing users to interact with individual posts in a focused environment.
 -   **Realtime Authentication Refresh:** Leveraging AppState to detect app activity, and refresh user auth tokens when the app returns to the foreground.
 
+## Screenshots
+
+Here's a glimpse of Movo in action:
+
+![Movo App Screenshot](assets/screenshot.jpg)  *(Replace `path/to/your/screenshot.png` with the actual path to your image file)*
+
 ## Architectural Design and Key Implementations
 
 * **Frontend Architecture:**
@@ -140,16 +146,9 @@ AppState.addEventListener('change', (state) => {
 });
 
 Add your SUPABASE_URL and SUPABASE_ANON_KEY to your app.json or app.config.js in the extra section.
-<!-- end list -->
-
 JSON
 
 "extra": {
-    "SUPABASE_URL": "your_supabase_url",
-    "SUPABASE_ANON_KEY": "your_anon_key"
+  "SUPABASE_URL": "your_supabase_url",
+  "SUPABASE_ANON_KEY": "your_anon_key"
 }
-Contributing
-Contributions to Movo are welcome! Please feel free to submit pull requests or open issues to contribute to the project.
-
-License
-This project is licensed under the MIT License.
