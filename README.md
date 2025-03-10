@@ -20,7 +20,7 @@ Movo boasts a comprehensive suite of features designed to provide a compelling u
 
 Here's a glimpse of Movo in action:
 
-![Movo App Screenshot](assets/screenshot.jpg)  *(Replace `path/to/your/screenshot.png` with the actual path to your image file)*
+![Movo App Screenshot](assets/screenshot.jpg) 
 
 ## Architectural Design and Key Implementations
 
