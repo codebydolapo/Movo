@@ -70,10 +70,10 @@ function MainLayout() {
         // setSession(session?.user)
         setEmail(session?.user.email)
         // console.log(session?.user.email)
-        router.replace("./")
+        router.replace("/")
       } else {
         setAuth(null);
-        router.replace("./welcome")
+        router.replace("/welcome")
       }
 
     })
